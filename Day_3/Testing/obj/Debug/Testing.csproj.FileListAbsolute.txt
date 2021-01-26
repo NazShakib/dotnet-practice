@@ -1,0 +1,10 @@
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\bin\Debug\Testing.dll
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\bin\Debug\Testing.pdb
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\bin\Debug\Day_3.exe
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\bin\Debug\Day_3.pdb
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\bin\Debug\Day_3.exe.config
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\obj\Debug\Testing.csprojAssemblyReference.cache
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\obj\Debug\Testing.csproj.CoreCompileInputs.cache
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\obj\Debug\Testing.csproj.CopyComplete
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\obj\Debug\Testing.dll
+C:\Users\Nazmus Sakib\source\repos\Day_3\Testing\obj\Debug\Testing.pdb

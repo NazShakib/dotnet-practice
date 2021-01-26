@@ -1,0 +1,7 @@
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\bin\Debug\Day_3.exe.config
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\bin\Debug\Day_3.exe
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\bin\Debug\Day_3.pdb
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\obj\Debug\Day_3.csprojAssemblyReference.cache
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\obj\Debug\Day_3.csproj.CoreCompileInputs.cache
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\obj\Debug\Day_3.exe
+C:\Users\Nazmus Sakib\source\repos\Day_3\Day_3\obj\Debug\Day_3.pdb
