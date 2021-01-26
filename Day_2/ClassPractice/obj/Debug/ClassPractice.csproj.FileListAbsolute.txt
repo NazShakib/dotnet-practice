@@ -1,0 +1,7 @@
+D:\dot net\ClassPractice\ClassPractice\obj\Debug\ClassPractice.csprojAssemblyReference.cache
+D:\dot net\ClassPractice\ClassPractice\obj\Debug\ClassPractice.csproj.CoreCompileInputs.cache
+D:\dot net\ClassPractice\ClassPractice\bin\Debug\ClassPractice.exe.config
+D:\dot net\ClassPractice\ClassPractice\bin\Debug\ClassPractice.exe
+D:\dot net\ClassPractice\ClassPractice\bin\Debug\ClassPractice.pdb
+D:\dot net\ClassPractice\ClassPractice\obj\Debug\ClassPractice.exe
+D:\dot net\ClassPractice\ClassPractice\obj\Debug\ClassPractice.pdb
