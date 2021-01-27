@@ -43,48 +43,48 @@ namespace ClassPractice
         }
         static void Main(string[] args)
         {
-            //var book1 = new Book();
-            //book1.printDetails();
+            var book1 = new Book();
+            book1.printDetails();
 
-            //var book2 = new Book("Nazmus Sakib",1);
-            //book2.printDetails();
+            var book2 = new Book("Nazmus Sakib", 1);
+            book2.printDetails();
 
-            //FullTimeEmployee fte = new FullTimeEmployee();
-            //fte.Firstname = "Nazmus";
-            //fte.Lastname = "Sakib";
-            //fte.printFullName();
+            FullTimeEmployee fte = new FullTimeEmployee();
+            fte.Firstname = "Nazmus";
+            fte.Lastname = "Sakib";
+            fte.printFullName();
 
-            //var fte1 = new FullTimeEmployee();
-            //fte1.Firstname = null;
-            //fte1.printFullName();
-            //Console.WriteLine(fte1.Lastname);
+            var fte1 = new FullTimeEmployee();
+            fte1.Firstname = null;
+            fte1.printFullName();
+            Console.WriteLine(fte1.Lastname);
 
-            //PartTimeEmployee pte = new PartTimeEmployee();
-            //pte.Firstname = "Rafid";
-            //pte.Lastname = "Hossain";
-            //pte.printFullName();
+            PartTimeEmployee pte = new PartTimeEmployee();
+            pte.Firstname = "Rafid";
+            pte.Lastname = "Hossain";
+            pte.printFullName();
 
 
-            // structure 
-            //Customer c1 = new Customer(102,"Nazmus Sakib");
-            //c1.printDetails();
-            //Customer c2 = new Customer();
-            //c2.Id = 103;
-            //c2.Name = "Samir";
-            //c2.printDetails();
+            /// structure 
+            Customer c1 = new Customer(102, "Nazmus Sakib");
+            c1.printDetails();
+            Customer c2 = new Customer();
+            c2.Id = 103;
+            c2.Name = "Samir";
+            c2.printDetails();
 
-            // interface
+            //// interface
 
-            //ICustomer2 cust = new Customer1();
-            //cust.Print1();
-            //cust.Print2();
+            ICustomer2 cust = new Customer1();
+            cust.Print1();
+            cust.Print2();
 
-            // explicit interface
-            //Program p = new Program();
-            //((I1)p).interfaceMethod();
-            //((I2)p).interfaceMethod();
+            ///// explicit interface
+            Program p = new Program();
+            ((I1)p).interfaceMethod();
+            ((I2)p).interfaceMethod();
 
-            // abstruct
+            ///// abstruct
 
             AbstructTest test = new AbstructTest();
             test.Print();
