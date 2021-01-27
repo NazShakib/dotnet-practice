@@ -1,0 +1,17 @@
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Day_4.UnitTests.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Day_4.UnitTests.pdb
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Day_4.exe
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Day_4.pdb
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Day_4.exe.config
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\dot net\Day_4\Day_4.UnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\dot net\Day_4\Day_4.UnitTests\obj\Debug\Day_4.UnitTests.csprojAssemblyReference.cache
+D:\dot net\Day_4\Day_4.UnitTests\obj\Debug\Day_4.UnitTests.csproj.CoreCompileInputs.cache
+D:\dot net\Day_4\Day_4.UnitTests\obj\Debug\Day_4.UnitTests.csproj.CopyComplete
+D:\dot net\Day_4\Day_4.UnitTests\obj\Debug\Day_4.UnitTests.dll
+D:\dot net\Day_4\Day_4.UnitTests\obj\Debug\Day_4.UnitTests.pdb
