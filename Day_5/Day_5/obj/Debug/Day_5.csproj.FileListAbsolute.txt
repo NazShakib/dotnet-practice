@@ -1,0 +1,7 @@
+D:\dot net\Day_5\Day_5\bin\Debug\Day_5.exe.config
+D:\dot net\Day_5\Day_5\bin\Debug\Day_5.exe
+D:\dot net\Day_5\Day_5\bin\Debug\Day_5.pdb
+D:\dot net\Day_5\Day_5\obj\Debug\Day_5.csprojAssemblyReference.cache
+D:\dot net\Day_5\Day_5\obj\Debug\Day_5.csproj.CoreCompileInputs.cache
+D:\dot net\Day_5\Day_5\obj\Debug\Day_5.exe
+D:\dot net\Day_5\Day_5\obj\Debug\Day_5.pdb
