@@ -1,0 +1,14 @@
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.deps.json
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Data.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Repository.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Data.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Repository.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csprojAssemblyReference.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfoInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfo.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CoreCompileInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CopyComplete
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb

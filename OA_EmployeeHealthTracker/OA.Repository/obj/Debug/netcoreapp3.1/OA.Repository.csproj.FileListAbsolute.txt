@@ -1,0 +1,12 @@
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.deps.json
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Data.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Data.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csprojAssemblyReference.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.AssemblyInfoInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.AssemblyInfo.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csproj.CoreCompileInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csproj.CopyComplete
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.pdb

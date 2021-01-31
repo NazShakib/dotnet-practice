@@ -1,0 +1,12 @@
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\bin\Debug\netcoreapp3.1\OA.Data.deps.json
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\bin\Debug\netcoreapp3.1\OA.Data.runtimeconfig.json
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\bin\Debug\netcoreapp3.1\OA.Data.runtimeconfig.dev.json
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\bin\Debug\netcoreapp3.1\OA.Data.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\bin\Debug\netcoreapp3.1\OA.Data.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.csprojAssemblyReference.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.AssemblyInfoInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.AssemblyInfo.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.csproj.CoreCompileInputs.cache
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.dll
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.pdb
+D:\dot net\OA_EmployeeHealthTrace\OA.DataAccess\obj\Debug\netcoreapp3.1\OA.Data.genruntimeconfig.cache
