@@ -26,10 +26,15 @@ namespace OA.Repository.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<DateTime>("CreatedTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -37,10 +42,8 @@ namespace OA.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("UpdatedTime")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("UserType")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
@@ -51,29 +54,25 @@ namespace OA.Repository.Migrations
             modelBuilder.Entity("OA.Data.UserPofile", b =>
                 {
                     b.Property<int>("ID")
-                        .HasColumnType("int");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Comment")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<float>("HealthRating")
                         .HasColumnType("real");
 
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("UpdatedTime")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserType")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
 
                     b.HasKey("ID");
+
+                    b.HasIndex("UserID");
 
                     b.ToTable("UserPofile");
                 });
@@ -81,8 +80,8 @@ namespace OA.Repository.Migrations
             modelBuilder.Entity("OA.Data.UserPofile", b =>
                 {
                     b.HasOne("OA.Data.User", "User")
-                        .WithOne("UserProfile")
-                        .HasForeignKey("OA.Data.UserPofile", "ID")
+                        .WithMany("UserPofiles")
+                        .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -91,7 +90,7 @@ namespace OA.Repository.Migrations
 
             modelBuilder.Entity("OA.Data.User", b =>
                 {
-                    b.Navigation("UserProfile");
+                    b.Navigation("UserPofiles");
                 });
 #pragma warning restore 612, 618
         }

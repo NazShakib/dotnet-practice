@@ -28,47 +28,12 @@ namespace OA.Web.Controllers
             return View();
         }
 
-        [HttpGet]
-        public IActionResult Register()
-        {
-            RegisterModel model = new RegisterModel();
-            return View(model);
-        }
-        [HttpPost]
-        public IActionResult Register(RegisterModel model)
-        {
-            User userEntity = new User
-            {
-                Email = model.Email,
-                UserType = model.UserType,
-                Password = model.Password,
-                CreatedTime = DateTime.Now,
-                UpdatedTime = DateTime.Now,
-                UserProfile = new UserPofile
-                {
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    CreatedTime = DateTime.Now,
-                    UpdatedTime = DateTime.Now,
-                }
-            };
-            userServices.InsertUser(userEntity);
-            if (userEntity.ID > 0)
-            {
-                return RedirectToAction("index");
-            }
-            return View(model);
-        }
 
         public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Login()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

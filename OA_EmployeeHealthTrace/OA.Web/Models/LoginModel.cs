@@ -8,10 +8,13 @@ namespace OA.Web.Models
 {
     public class LoginModel
     {
-        [Required]
+        [Required(ErrorMessage = "Email is Required")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Valid Email is Required")]
+        [Display(Name = "Email Address")]
         public string Email { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Password is required.")]
+        [Display(Name = "Password")]
         public string Password { get; set; }
     }
 }

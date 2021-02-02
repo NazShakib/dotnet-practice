@@ -7,6 +7,6 @@ namespace OA.Services
 {
     public interface IUserProfileService
     {
-        UserPofile GetUserProfile(long id);
+        List<UserPofile> GetUserProfile(long id);
     }
 }

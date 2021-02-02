@@ -10,9 +10,13 @@ namespace OA.Data
         public UserMap(EntityTypeBuilder<User> entityBuilder)
         {
             entityBuilder.HasKey(t => t.ID);
+            entityBuilder.Property(t => t.FirstName).IsRequired();
+            entityBuilder.Property(t => t.LastName).IsRequired();
+            entityBuilder.Property(t => t.UserType).IsRequired();
             entityBuilder.Property(t => t.Email).IsRequired();
             entityBuilder.Property(t => t.Password).IsRequired();
-            entityBuilder.HasOne(t => t.UserProfile).WithOne(u => u.User).HasForeignKey<UserPofile>(x => x.ID);
+            //entityBuilder.HasMany(t => t.UserProfile).WithOne(u => u.User).HasForeignKey<UserPofile>(x => x.ID);
+
         }
     }
 }

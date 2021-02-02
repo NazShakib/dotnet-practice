@@ -15,9 +15,9 @@ namespace OA.Services
             this.userProfileRepository = userProfileRepository;
         }
 
-        public UserPofile GetUserProfile(long id)
+        public List<UserPofile> GetUserProfile(long id)
         {
-            return userProfileRepository.get(id);
+            return userProfileRepository.GetListByFilter(id);
         }
     }
 }

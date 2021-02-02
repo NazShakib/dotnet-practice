@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using OA.Data;
@@ -12,6 +13,7 @@ namespace OA.Repository
     {
         private readonly ApplicationContext context;
         private DbSet<T> entitites;
+
         public UserRepository(ApplicationContext context)
         {
             this.context = context;
@@ -33,9 +35,20 @@ namespace OA.Repository
             return entitites.SingleOrDefault(s => s.ID == id);
         }
 
+        
         public IEnumerable<T> GetAll()
         {
             return entitites.AsEnumerable();
+        }
+
+        public T GetByFilter(Expression<Func<T, bool>> filter)
+        {
+            return entitites.SingleOrDefault(filter);
+        }
+
+        public List<T> GetListByFilter(long id)
+        {
+            return entitites.Where(s => s.ID == id).ToList();
         }
 
         public void Insert(T entity)
@@ -70,5 +83,7 @@ namespace OA.Repository
             }
             context.SaveChanges();
         }
+
+
     }
 }
