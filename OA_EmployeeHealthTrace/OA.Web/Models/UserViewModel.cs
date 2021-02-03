@@ -9,17 +9,20 @@ namespace OA.Web.Models
 {
     public class UserViewModel
     {
-
-        [Display(Name = "Health ID")]
+        [HiddenInput]
         public int ID { get; set; }
 
-        [Display(Name = "Created At")]
+        [Display(Name ="Created At")]
         public DateTime CreatedAt { get; set; }
 
+        [Required(ErrorMessage = "Health Rating is Required")]
         [Display(Name = "Health Rating")]
         public float HealthRating { get; set; }
 
-        [Display(Name = "User ID")]
+        [Display(Name = "Comment")]
+        public string Comment { get; set; }
+        
+        [HiddenInput]
         public int UID { get; set; }
     }
 }

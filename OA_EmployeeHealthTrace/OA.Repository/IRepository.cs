@@ -8,7 +8,6 @@ namespace OA.Repository
 {
     public interface IRepository<T> where T : BaseEntity
     {
-
         IEnumerable<T> GetAll();
         T GetByFilter(Expression<Func<T, bool>> filter);
         T get(long id);

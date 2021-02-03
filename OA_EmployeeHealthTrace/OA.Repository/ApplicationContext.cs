@@ -10,7 +10,7 @@ namespace OA.Repository
     {
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
-            
+
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -18,5 +18,8 @@ namespace OA.Repository
             new UserMap(modelBuilder.Entity<User>());
             new UserProfileMap(modelBuilder.Entity<UserPofile>());
         }
+
+        public User User { get; set; }
+        public UserPofile UserPofile{get;set;}
     }
 }

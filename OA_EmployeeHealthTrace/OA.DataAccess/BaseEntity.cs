@@ -7,6 +7,7 @@ namespace OA.Data
     public class BaseEntity
     {
         public int ID { get; set; }
-       
+
+
     }
 }

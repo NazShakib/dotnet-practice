@@ -157,5 +157,6 @@ D:\dot net\OA_EmployeeHealthTrace\OA.Web\bin\Debug\netcoreapp3.1\zh-Hans\Microso
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\register.cshtml.g.cs
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\login.cshtml.g.cs
-D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\AddHealth.cshtml.g.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Uindex.cshtml.g.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\admin.cshtml.g.cs

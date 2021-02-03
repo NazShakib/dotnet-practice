@@ -15,8 +15,6 @@ namespace OA.Data
             entityBuilder.Property(t => t.UserType).IsRequired();
             entityBuilder.Property(t => t.Email).IsRequired();
             entityBuilder.Property(t => t.Password).IsRequired();
-            //entityBuilder.HasMany(t => t.UserProfile).WithOne(u => u.User).HasForeignKey<UserPofile>(x => x.ID);
-
         }
     }
 }

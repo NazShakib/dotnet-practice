@@ -9,7 +9,7 @@ using OA.Data;
 
 namespace OA.Repository
 {
-   public class UserRepository<T> : IRepository<T> where T : BaseEntity
+    public class UserRepository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly ApplicationContext context;
         private DbSet<T> entitites;
@@ -35,7 +35,7 @@ namespace OA.Repository
             return entitites.SingleOrDefault(s => s.ID == id);
         }
 
-        
+
         public IEnumerable<T> GetAll()
         {
             return entitites.AsEnumerable();
@@ -46,6 +46,7 @@ namespace OA.Repository
             return entitites.SingleOrDefault(filter);
         }
 
+
         public List<T> GetListByFilter(long id)
         {
             return entitites.Where(s => s.ID == id).ToList();
@@ -53,7 +54,7 @@ namespace OA.Repository
 
         public void Insert(T entity)
         {
-            if (entity==null)
+            if (entity == null)
             {
                 throw new ArgumentNullException("Empty");
             }

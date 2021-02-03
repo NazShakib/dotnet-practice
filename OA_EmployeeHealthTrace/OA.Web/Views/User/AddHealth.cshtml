@@ -1,4 +1,5 @@
-﻿@model OA.Web.Models.HealthRatingAdd
+﻿
+@model OA.Web.Models.UserViewModel
 
 @{
     ViewData["Title"] = "AddHealth";
@@ -13,7 +14,7 @@
 
         </div>
         <div class="col-md-6">
-            <form asp-action="AddHealth">
+            <form asp-action="AddHealth" asp-controller="User" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="HealthRating" class="control-label"></label>

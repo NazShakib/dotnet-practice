@@ -8,11 +8,11 @@ using OA.Repository;
 
 namespace OA.Services
 {
-   public class UserService : IUserServices
+    public class UserService : IUserServices
     {
         private IRepository<User> UserRepository;
         private IRepository<UserPofile> UserProfileRepository;
-        public UserService(IRepository<User> UserRepository,IRepository<UserPofile> UserProfileRepository)
+        public UserService(IRepository<User> UserRepository, IRepository<UserPofile> UserProfileRepository)
         {
             this.UserRepository = UserRepository;
             this.UserProfileRepository = UserProfileRepository;
@@ -43,7 +43,7 @@ namespace OA.Services
 
         public void InsertUser(User user)
         {
-             UserRepository.Insert(user);
+            UserRepository.Insert(user);
         }
 
         public void UpdateUser(User user)
