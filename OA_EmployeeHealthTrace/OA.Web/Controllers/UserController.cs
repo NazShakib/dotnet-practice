@@ -7,6 +7,8 @@ using OA.Services;
 using OA.Web.Models;
 using OA.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OA.Web.Controllers
 {
@@ -21,12 +23,12 @@ namespace OA.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult Uindex(int userId)
+        public ActionResult Uindex(int userId)
         {
             ViewBag.id = userId;
             List<UserViewModel> model = new List<UserViewModel>();
 
-            this.userProfileService.GetUserProfile(userId).ToList().ForEach(u =>
+            this.userProfileService.GetUserProfile(i=>i.UserID==userId).ToList().ForEach(u =>
                {
                    var user = userServices.getUser(u.UserID);
 
@@ -44,7 +46,7 @@ namespace OA.Web.Controllers
 
 
         [HttpGet]
-        public IActionResult register()
+        public ActionResult register()
         {
            RegisterModel model = new RegisterModel();
             return View(model);
@@ -81,7 +83,7 @@ namespace OA.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult login()
+        public ActionResult login()
         {
             LoginModel model = new LoginModel();
             return View(model);
@@ -92,9 +94,9 @@ namespace OA.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                
                 var user = userServices.GetByFilter(i => i.Email == model.Email && i.Password == model.Password && i.UserType== "User");
                 var admin = userServices.GetByFilter(i => i.Email == model.Email && i.Password == model.Password && i.UserType=="Admin");
-
 
                 if (user == null && admin==null)
                 {
@@ -102,14 +104,24 @@ namespace OA.Web.Controllers
                 }
                 else if(user!=null && admin==null)
                 {
-                    //Console.WriteLine(model.Email);
                     Console.WriteLine("Login Sucessfull as User");
+                    const string email = "Email";
+                    const string Id = "ID";
+                    HttpContext.Session.SetString(email, user.Email);
+                    HttpContext.Session.SetInt32(Id, user.ID);
+                    ViewBag.email = email;
+                    ViewBag.Id = Id;
+                    
                     return RedirectToAction("Uindex","User", new { userId = user.ID });
                 }
                 else
                 {
+                    const string email = "Email";
+                    const string Id = "ID";
+                    HttpContext.Session.SetString(email, admin.Email);
+                    HttpContext.Session.SetInt32(Id, admin.ID);
                     Console.WriteLine("Login Sucessfull as Admin");
-                    return RedirectToAction("admin","User",new { userId = admin.ID});
+                    return RedirectToAction("admin", "User", new { userId = admin.ID });
                 }
 
             }
@@ -117,14 +129,14 @@ namespace OA.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult AddHealth(int id)
+        public ActionResult AddHealth(int id)
         {
             UserViewModel model = new UserViewModel();
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult AddHealth(int id, UserViewModel model)
+        public ActionResult AddHealth(int id, UserViewModel model)
         {
             Console.WriteLine(id);
             UserPofile pofile = new UserPofile {
@@ -149,10 +161,72 @@ namespace OA.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult admin(int id)
+        public ActionResult editHealth(int? id)
+        {
+            EditHealthModel editHealth = new EditHealthModel();
+            if (id.HasValue && id!=0)
+            {
+                UserPofile health = userProfileService.getProfile(id.Value);
+                editHealth.HealthRating = health.HealthRating;
+                editHealth.Comment = health.Comment;
+            }
+            return View(editHealth);
+        }
+
+        [HttpPost]
+        public ActionResult editHealth(EditHealthModel editHealth)
+        {
+            UserPofile health = userProfileService.getProfile(editHealth.ID);
+            health.HealthRating = editHealth.HealthRating;
+            health.Comment = editHealth.Comment;
+            try
+            {
+                userProfileService.UpdateUser(health);
+                if (health.ID > 0)
+                {
+                    return RedirectToAction("Uindex", "User", new { userId = health.UserID });
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex);
+            }
+            
+            return View(editHealth);
+        }
+
+        [HttpGet]
+        public ActionResult deleteHealth(int? id)
+        {
+            DeleteViewModel delete = new DeleteViewModel();
+            if (id.HasValue && id!=0)
+            {
+                UserPofile deleteHealth = userProfileService.getProfile(id.Value);
+                delete.ID = deleteHealth.ID;
+            }
+            return View(delete);
+        }
+
+        [HttpPost]
+        public ActionResult deleteHealth(int? id, DeleteViewModel delete)
+        {
+            if (id.HasValue && id != 0)
+            {
+                UserPofile deleteHealth = userProfileService.getProfile(id.Value);
+                delete.ID = deleteHealth.ID;
+                delete.UID = deleteHealth.UserID;
+                userProfileService.DeleteUser(delete.ID);
+            }
+            return RedirectToAction("Uindex", "User", new { userId = delete.UID });
+        }
+
+
+        [HttpGet]
+        public ActionResult admin(int id)
         {
             List<AdminViewModel> admin = new List<AdminViewModel>();
-            this.userServices.GetUsers().ToList().ForEach(u =>
+            this.userServices.GetUserProfile(i=> i.UserType=="User").ToList().ForEach(u =>
             {
                 AdminViewModel model = new AdminViewModel
                 {
@@ -164,6 +238,13 @@ namespace OA.Web.Controllers
                 admin.Add(model);
             });
             return View(admin);
+        }
+
+        public ActionResult logout()
+        {
+
+            HttpContext.Session.Clear();
+            return RedirectToAction("login", "User");
         }
 
     }

@@ -10,6 +10,7 @@ namespace OA.Services
     {
         User GetByFilter(Expression<Func<User, bool>> filter);
         IEnumerable<User> GetUsers();
+        List<User> GetUserProfile(Expression<Func<User, bool>> filter);
         User getUser(long id);
         void InsertUser(User user);
         void UpdateUser(User user);

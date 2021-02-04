@@ -47,9 +47,9 @@ namespace OA.Repository
         }
 
 
-        public List<T> GetListByFilter(long id)
+        public List<T> GetListByFilter(Expression<Func<T, bool>> filter)
         {
-            return entitites.Where(s => s.ID == id).ToList();
+            return entitites.Where(filter).ToList();
         }
 
         public void Insert(T entity)

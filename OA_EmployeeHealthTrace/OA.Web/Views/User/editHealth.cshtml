@@ -1,20 +1,18 @@
-﻿
-@model OA.Web.Models.UserViewModel
+﻿@model OA.Web.Models.EditHealthModel
 
 @{
-    ViewData["Title"] = "AddHealth";
+    ViewData["Title"] = "editHealth";
 }
 
 <div class="container">
-    <h1 class="text-center">Add Health</h1>
-
+    <h1 class="text-center">editHealth</h1>
     <hr />
     <div class="row">
         <div class="col-md-3">
 
         </div>
         <div class="col-md-6">
-            <form asp-action="AddHealth" asp-controller="User" method="post">
+            <form asp-action="editHealth">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="HealthRating" class="control-label"></label>
@@ -27,7 +25,7 @@
                     <span asp-validation-for="Comment" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <input type="submit" value="Add Health" class="btn btn-primary" />
+                    <input type="submit" value="Save" class="btn btn-primary" />
                 </div>
             </form>
         </div>
@@ -35,8 +33,8 @@
 
         </div>
     </div>
-</div>
 
+</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

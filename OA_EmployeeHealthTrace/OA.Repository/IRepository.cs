@@ -11,7 +11,7 @@ namespace OA.Repository
         IEnumerable<T> GetAll();
         T GetByFilter(Expression<Func<T, bool>> filter);
         T get(long id);
-        List<T> GetListByFilter(long id);
+        List<T> GetListByFilter(Expression<Func<T, bool>> filter);
         void Insert(T entity);
         void Update(T entity);
         void Delete(T entity);

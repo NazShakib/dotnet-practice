@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using OA.Repository;
 using OA.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Http;
 
 namespace OA.Web
 {
@@ -31,6 +33,11 @@ namespace OA.Web
             services.AddScoped(typeof(IRepository<>), typeof(UserRepository<>));
             services.AddTransient<IUserServices, UserService>();
             services.AddTransient<IUserProfileService,UserProfileService>();
+            services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddDistributedMemoryCache();
+            services.AddSession(options=> {
+                options.IdleTimeout = TimeSpan.FromDays(2); // two days session
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,9 +52,8 @@ namespace OA.Web
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseStaticFiles();
-
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

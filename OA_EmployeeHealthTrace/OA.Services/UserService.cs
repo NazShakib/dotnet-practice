@@ -36,6 +36,12 @@ namespace OA.Services
             return UserRepository.get(id);
         }
 
+        public List<User> GetUserProfile(Expression<Func<User, bool>> filter)
+        {
+            return UserRepository.GetListByFilter(filter);
+        }
+
+
         public IEnumerable<User> GetUsers()
         {
             return UserRepository.GetAll();

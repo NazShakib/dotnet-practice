@@ -160,3 +160,5 @@ D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\Use
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\AddHealth.cshtml.g.cs
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\Uindex.cshtml.g.cs
 D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\admin.cshtml.g.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\editHealth.cshtml.g.cs
+D:\dot net\OA_EmployeeHealthTrace\OA.Web\obj\Debug\netcoreapp3.1\Razor\Views\User\deleteHealth.cshtml.g.cs
