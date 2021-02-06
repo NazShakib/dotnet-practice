@@ -22,6 +22,7 @@ namespace OA.Services
         {
             UserPofile profile = userProfileRepository.get(id);
             userProfileRepository.Remove(profile);
+            userProfileRepository.SaveChanges();
         }
 
         public UserPofile getProfile(long id)

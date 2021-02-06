@@ -22,8 +22,6 @@ namespace OA.Services
         {
             UserPofile userPofile = UserProfileRepository.get(id);
             UserProfileRepository.Remove(userPofile);
-            User user = UserRepository.get(id);
-            UserRepository.Remove(user);
         }
 
         public User GetByFilter(Expression<Func<User, bool>> filter)

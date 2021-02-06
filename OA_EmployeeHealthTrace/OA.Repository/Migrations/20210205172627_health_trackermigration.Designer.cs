@@ -10,8 +10,8 @@ using OA.Repository;
 namespace OA.Repository.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20210202124354_health_trackermigrations")]
-    partial class health_trackermigrations
+    [Migration("20210205172627_health_trackermigration")]
+    partial class health_trackermigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

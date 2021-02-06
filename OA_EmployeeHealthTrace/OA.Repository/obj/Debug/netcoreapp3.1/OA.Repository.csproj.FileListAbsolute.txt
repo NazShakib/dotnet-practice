@@ -10,3 +10,15 @@ D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repos
 D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csproj.CopyComplete
 D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.dll
 D:\dot net\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.deps.json
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Repository.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Data.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\bin\Debug\netcoreapp3.1\OA.Data.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csprojAssemblyReference.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.AssemblyInfoInputs.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.AssemblyInfo.cs
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csproj.CoreCompileInputs.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.csproj.CopyComplete
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Repository\obj\Debug\netcoreapp3.1\OA.Repository.pdb

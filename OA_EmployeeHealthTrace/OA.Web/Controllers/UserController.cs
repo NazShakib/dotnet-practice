@@ -70,7 +70,7 @@ namespace OA.Web.Controllers
                 userServices.InsertUser(userEntity);
                 if (userEntity.ID > 0)
                 {
-                    return RedirectToAction("UIndex","User",new { userId = userEntity.ID });
+                    return RedirectToAction("login","User",new { userId = userEntity.ID });
                 }
             }
             catch (Exception ex)
@@ -211,14 +211,12 @@ namespace OA.Web.Controllers
         [HttpPost]
         public ActionResult deleteHealth(int? id, DeleteViewModel delete)
         {
-            if (id.HasValue && id != 0)
-            {
+     
                 UserPofile deleteHealth = userProfileService.getProfile(id.Value);
-                delete.ID = deleteHealth.ID;
-                delete.UID = deleteHealth.UserID;
-                userProfileService.DeleteUser(delete.ID);
-            }
-            return RedirectToAction("Uindex", "User", new { userId = delete.UID });
+                var Id = deleteHealth.UserID;
+                userProfileService.DeleteUser(id.Value);
+                return RedirectToAction("Uindex", "User", new { userId = Id });
+   
         }
 
 
@@ -245,6 +243,26 @@ namespace OA.Web.Controllers
 
             HttpContext.Session.Clear();
             return RedirectToAction("login", "User");
+        }
+
+        [HttpGet]
+        public ActionResult userDetails(int id)
+        {
+            List<UserDetailsVIew> model = new List<UserDetailsVIew>();
+            this.userProfileService.GetUserProfile(i => i.UserID == id).ToList().ForEach(u =>
+               {
+                   User user = userServices.getUser(id);
+                   UserDetailsVIew details = new UserDetailsVIew
+                   {
+                       Name = $"{user.FirstName} {user.LastName}",
+                       HealthId = u.ID,
+                       HealthRating = u.HealthRating,
+                       Comment = u.Comment
+                   };
+                   model.Add(details);
+               });
+
+            return View(model);
         }
 
     }

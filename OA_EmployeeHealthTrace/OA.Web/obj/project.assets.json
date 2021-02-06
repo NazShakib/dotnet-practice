@@ -8970,19 +8970,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nazmus Sakib\\.nuget\\packages\\": {}
+    "C:\\Users\\BS-541\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Web\\OA.Web.csproj",
+      "projectUniqueName": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Web\\OA.Web.csproj",
       "projectName": "OA.Web",
-      "projectPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Web\\OA.Web.csproj",
-      "packagesPath": "C:\\Users\\Nazmus Sakib\\.nuget\\packages\\",
-      "outputPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Web\\obj\\",
+      "projectPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Web\\OA.Web.csproj",
+      "packagesPath": "C:\\Users\\BS-541\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nazmus Sakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BS-541\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8996,14 +8996,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\dot net\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj": {
-              "projectPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj"
+            "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj": {
+              "projectPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj"
             },
-            "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Repository\\OA.Repository.csproj": {
-              "projectPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Repository\\OA.Repository.csproj"
+            "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Repository\\OA.Repository.csproj": {
+              "projectPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Repository\\OA.Repository.csproj"
             },
-            "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Services\\OA.Services.csproj": {
-              "projectPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.Services\\OA.Services.csproj"
+            "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Services\\OA.Services.csproj": {
+              "projectPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.Services\\OA.Services.csproj"
             }
           }
         }

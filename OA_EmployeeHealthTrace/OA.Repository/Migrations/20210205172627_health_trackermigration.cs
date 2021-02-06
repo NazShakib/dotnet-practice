@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OA.Repository.Migrations
 {
-    public partial class health_trackermigrations : Migration
+    public partial class health_trackermigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

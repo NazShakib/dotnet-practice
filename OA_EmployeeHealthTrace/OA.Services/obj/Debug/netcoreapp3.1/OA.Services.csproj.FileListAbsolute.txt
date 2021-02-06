@@ -12,3 +12,17 @@ D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Service
 D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CopyComplete
 D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
 D:\dot net\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.deps.json
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Services.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Data.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Repository.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Data.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\bin\Debug\netcoreapp3.1\OA.Repository.pdb
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csprojAssemblyReference.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfoInputs.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.AssemblyInfo.cs
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CoreCompileInputs.cache
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.csproj.CopyComplete
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.dll
+C:\Users\BS-541\source\repos\dotnet-practice\OA_EmployeeHealthTrace\OA.Services\obj\Debug\netcoreapp3.1\OA.Services.pdb

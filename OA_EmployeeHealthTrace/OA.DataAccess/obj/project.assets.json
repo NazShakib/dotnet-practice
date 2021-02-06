@@ -5798,19 +5798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nazmus Sakib\\.nuget\\packages\\": {}
+    "C:\\Users\\BS-541\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj",
+      "projectUniqueName": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj",
       "projectName": "OA.Data",
-      "projectPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj",
-      "packagesPath": "C:\\Users\\Nazmus Sakib\\.nuget\\packages\\",
-      "outputPath": "D:\\dot net\\OA_EmployeeHealthTrace\\OA.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.DataAccess\\OA.Data.csproj",
+      "packagesPath": "C:\\Users\\BS-541\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BS-541\\source\\repos\\dotnet-practice\\OA_EmployeeHealthTrace\\OA.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nazmus Sakib\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BS-541\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
