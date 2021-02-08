@@ -1,6 +1,6 @@
 using System;
 
-namespace Testing.Areas.HelpPage.ModelDescriptions
+namespace EmployeeWebAPI.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

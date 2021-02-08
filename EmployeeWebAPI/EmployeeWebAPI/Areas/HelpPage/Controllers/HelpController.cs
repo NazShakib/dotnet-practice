@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Testing.Areas.HelpPage.ModelDescriptions;
-using Testing.Areas.HelpPage.Models;
+using EmployeeWebAPI.Areas.HelpPage.ModelDescriptions;
+using EmployeeWebAPI.Areas.HelpPage.Models;
 
-namespace Testing.Areas.HelpPage.Controllers
+namespace EmployeeWebAPI.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

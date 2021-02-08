@@ -1,4 +1,4 @@
-namespace Testing.Areas.HelpPage
+namespace EmployeeWebAPI.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace Testing.Areas.HelpPage.ModelDescriptions
+namespace EmployeeWebAPI.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

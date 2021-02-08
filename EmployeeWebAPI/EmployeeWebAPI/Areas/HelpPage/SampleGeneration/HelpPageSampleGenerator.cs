@@ -13,7 +13,7 @@ using System.Web.Http.Description;
 using System.Xml.Linq;
 using Newtonsoft.Json;
 
-namespace Testing.Areas.HelpPage
+namespace EmployeeWebAPI.Areas.HelpPage
 {
     /// <summary>
     /// This class will generate the samples for the help page.

@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Testing.Areas.HelpPage.ModelDescriptions
+namespace EmployeeWebAPI.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {
